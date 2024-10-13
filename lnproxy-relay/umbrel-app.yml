@@ -1,0 +1,22 @@
+manifestVersion: 1
+id: lnproxy-relay
+category: bitcoin
+name: lnproxy-relay
+version: "unstable-1"
+tagline: A simple lightning privacy tool.
+description: >-
+  lnproxy is a simple privacy tool that makes invoices more private.
+  Users of custodial Lightning wallets get better payment destination privacy
+  and sovereign node runners with enhanced receiver privacy.
+  lnproxy works like a "Poor man's rendez-vous",
+  providing privacy for users without taking custody of their funds.
+
+developer: https://github.com/lnproxy
+website: https://lnproxy.org
+dependencies:
+  - lightning
+repo: https://github.com/lnproxy/lnproxy-relay
+support: https://lnproxy.org/contact.html
+port: 4747
+submitter: lnproxy dev
+submission: TODO
